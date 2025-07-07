@@ -9,3 +9,6 @@ def test_listaGoala():
     assert medie([])==0
     # if not medie([])==0:
     #     raise AssertionError()
+
+def test_unSingurNumar():
+    assert medie([8])==8
